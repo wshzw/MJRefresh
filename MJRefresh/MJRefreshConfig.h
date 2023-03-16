@@ -27,7 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Singleton Config instance */
 @property (class, nonatomic, readonly) MJRefreshConfig *defaultConfig;
-
+/** Singleton Config instance */
+@property (copy, nonatomic) NSString *hzw;
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
 
